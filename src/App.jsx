@@ -3,14 +3,16 @@ import { initializeApp } from 'firebase/app';
 import { getDatabase, ref, onValue, set, update, get, onDisconnect } from 'firebase/database';
 
 // Firebase config - REPLACE WITH YOUR OWN CONFIG
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  databaseURL: "YOUR_DATABASE_URL",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyCV20Gnxh_Sg8Rr1Ffc5KkVWQWcwhP-owQ",
+  authDomain: "wacky-wacky-west-online.firebaseapp.com",
+  databaseURL: "https://wacky-wacky-west-online-default-rtdb.firebaseio.com",
+  projectId: "wacky-wacky-west-online",
+  storageBucket: "wacky-wacky-west-online.firebasestorage.app",
+  messagingSenderId: "430338728417",
+  appId: "1:430338728417:web:a917ecab2ff14abee5f2a0",
+  measurementId: "G-LZW2JSD4W2"
 };
 
 const app = initializeApp(firebaseConfig);
